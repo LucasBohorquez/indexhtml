@@ -1,0 +1,51 @@
+/* Reset.css */
+
+/* Box-sizing border-box for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+html {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Headings */
+h1, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* Lists */
+ul, ol {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Forms */
+input, textarea, select, button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Images */
+@media only screen and (max-width: 1000px) {
+  img {
+    width: 100%;
+  }
+}
